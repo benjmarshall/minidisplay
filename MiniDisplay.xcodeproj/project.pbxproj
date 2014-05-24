@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5395F231630C468008E229C /* SCStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5395F221630C468008E229C /* SCStatusView.m */; };
+		F5395F281630C758008E229C /* heart-white.png in Resources */ = {isa = PBXBuildFile; fileRef = F5395F271630C758008E229C /* heart-white.png */; };
+		F5395F2A1630C77B008E229C /* Views.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5395F291630C77B008E229C /* Views.xib */; };
+		F5395F2D1630C80B008E229C /* SCUserNameView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5395F2C1630C80B008E229C /* SCUserNameView.m */; };
+		F554AF4516349886000B252D /* SCEndView.m in Sources */ = {isa = PBXBuildFile; fileRef = F554AF4416349886000B252D /* SCEndView.m */; };
+		F554AF5E1634A06F000B252D /* SCLoadView.m in Sources */ = {isa = PBXBuildFile; fileRef = F554AF5D1634A06F000B252D /* SCLoadView.m */; };
+		F554AF601634A3FC000B252D /* fire.png in Resources */ = {isa = PBXBuildFile; fileRef = F554AF5F1634A3FC000B252D /* fire.png */; };
+		F554AF9B1634DF47000B252D /* SCMemoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = F554AF9A1634DF47000B252D /* SCMemoryView.m */; };
+		F5617D74164715BB00568916 /* home-disk.png in Resources */ = {isa = PBXBuildFile; fileRef = F5617D72164715BB00568916 /* home-disk.png */; };
+		F5617D75164715BB00568916 /* system-disk.png in Resources */ = {isa = PBXBuildFile; fileRef = F5617D73164715BB00568916 /* system-disk.png */; };
+		F5617D78164715EB00568916 /* end.png in Resources */ = {isa = PBXBuildFile; fileRef = F5617D77164715EB00568916 /* end.png */; };
+		F5D23C9D163627A30006CE4A /* network-up-down.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D23C9C163627A30006CE4A /* network-up-down.png */; };
+		F5D23CA1163628480006CE4A /* SCNetView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D23CA0163628480006CE4A /* SCNetView.m */; };
+		F5F089AF16360F0C0041712B /* SCDiskView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F089AE16360F0C0041712B /* SCDiskView.m */; };
+		F5F27939163364A4005258BD /* NS(Attributed)String+Geometrics.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F27938163364A4005258BD /* NS(Attributed)String+Geometrics.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F5F2794116336C78005258BD /* stats.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F2794016336C78005258BD /* stats.png */; };
+		F5F2794416337283005258BD /* SCHideControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F2794316337283005258BD /* SCHideControlView.m */; };
+		F5F2794616337617005258BD /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F2794516337617005258BD /* button.png */; };
+		F5FE86E8162F85BB000D0738 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FE86E7162F85BB000D0738 /* Cocoa.framework */; };
+		F5FE86F2162F85BB000D0738 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5FE86F0162F85BB000D0738 /* InfoPlist.strings */; };
+		F5FE86F4162F85BB000D0738 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FE86F3162F85BB000D0738 /* main.m */; };
+		F5FE86F8162F85BB000D0738 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F5FE86F6162F85BB000D0738 /* Credits.rtf */; };
+		F5FE86FB162F85BB000D0738 /* SCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FE86FA162F85BB000D0738 /* SCAppDelegate.m */; };
+		F5FE86FE162F85BC000D0738 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5FE86FC162F85BC000D0738 /* MainMenu.xib */; };
+		F5FE8705162F8C60000D0738 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FE8704162F8C60000D0738 /* QuartzCore.framework */; };
+		F5FE8708162F8E5C000D0738 /* SCWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FE8707162F8E5C000D0738 /* SCWindow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F5395F211630C468008E229C /* SCStatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCStatusView.h; sourceTree = "<group>"; };
+		F5395F221630C468008E229C /* SCStatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCStatusView.m; sourceTree = "<group>"; };
+		F5395F271630C758008E229C /* heart-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart-white.png"; sourceTree = "<group>"; };
+		F5395F291630C77B008E229C /* Views.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Views.xib; sourceTree = "<group>"; };
+		F5395F2B1630C80B008E229C /* SCUserNameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCUserNameView.h; sourceTree = "<group>"; };
+		F5395F2C1630C80B008E229C /* SCUserNameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCUserNameView.m; sourceTree = "<group>"; };
+		F554AF4316349886000B252D /* SCEndView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCEndView.h; sourceTree = "<group>"; };
+		F554AF4416349886000B252D /* SCEndView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCEndView.m; sourceTree = "<group>"; };
+		F554AF5C1634A06F000B252D /* SCLoadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLoadView.h; sourceTree = "<group>"; };
+		F554AF5D1634A06F000B252D /* SCLoadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLoadView.m; sourceTree = "<group>"; };
+		F554AF5F1634A3FC000B252D /* fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fire.png; sourceTree = "<group>"; };
+		F554AF991634DF47000B252D /* SCMemoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCMemoryView.h; sourceTree = "<group>"; };
+		F554AF9A1634DF47000B252D /* SCMemoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCMemoryView.m; sourceTree = "<group>"; };
+		F5617D72164715BB00568916 /* home-disk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-disk.png"; sourceTree = "<group>"; };
+		F5617D73164715BB00568916 /* system-disk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "system-disk.png"; sourceTree = "<group>"; };
+		F5617D77164715EB00568916 /* end.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = end.png; sourceTree = "<group>"; };
+		F5D23C9C163627A30006CE4A /* network-up-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "network-up-down.png"; sourceTree = "<group>"; };
+		F5D23C9F163628480006CE4A /* SCNetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNetView.h; sourceTree = "<group>"; };
+		F5D23CA0163628480006CE4A /* SCNetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCNetView.m; sourceTree = "<group>"; };
+		F5F089AD16360F0C0041712B /* SCDiskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCDiskView.h; sourceTree = "<group>"; };
+		F5F089AE16360F0C0041712B /* SCDiskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCDiskView.m; sourceTree = "<group>"; };
+		F5F27937163364A4005258BD /* NS(Attributed)String+Geometrics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NS(Attributed)String+Geometrics.h"; sourceTree = "<group>"; };
+		F5F27938163364A4005258BD /* NS(Attributed)String+Geometrics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NS(Attributed)String+Geometrics.m"; sourceTree = "<group>"; };
+		F5F2794016336C78005258BD /* stats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stats.png; sourceTree = "<group>"; };
+		F5F2794216337283005258BD /* SCHideControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHideControlView.h; sourceTree = "<group>"; };
+		F5F2794316337283005258BD /* SCHideControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHideControlView.m; sourceTree = "<group>"; };
+		F5F2794516337617005258BD /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		F5FE86E3162F85BB000D0738 /* MiniDisplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniDisplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5FE86E7162F85BB000D0738 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F5FE86EA162F85BB000D0738 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F5FE86EB162F85BB000D0738 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F5FE86EC162F85BB000D0738 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F5FE86EF162F85BB000D0738 /* MiniDisplay-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MiniDisplay-Info.plist"; sourceTree = "<group>"; };
+		F5FE86F1162F85BB000D0738 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5FE86F3162F85BB000D0738 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5FE86F5162F85BB000D0738 /* MiniDisplay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MiniDisplay-Prefix.pch"; sourceTree = "<group>"; };
+		F5FE86F7162F85BB000D0738 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F5FE86F9162F85BB000D0738 /* SCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCAppDelegate.h; sourceTree = "<group>"; };
+		F5FE86FA162F85BB000D0738 /* SCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCAppDelegate.m; sourceTree = "<group>"; };
+		F5FE86FD162F85BC000D0738 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F5FE8704162F8C60000D0738 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F5FE8706162F8E5C000D0738 /* SCWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCWindow.h; sourceTree = "<group>"; };
+		F5FE8707162F8E5C000D0738 /* SCWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCWindow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5FE86E0162F85BB000D0738 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5FE8705162F8C60000D0738 /* QuartzCore.framework in Frameworks */,
+				F5FE86E8162F85BB000D0738 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5395F2E1630C812008E229C /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				F5F2794216337283005258BD /* SCHideControlView.h */,
+				F5F2794316337283005258BD /* SCHideControlView.m */,
+				F5395F2B1630C80B008E229C /* SCUserNameView.h */,
+				F5395F2C1630C80B008E229C /* SCUserNameView.m */,
+				F554AF5C1634A06F000B252D /* SCLoadView.h */,
+				F554AF5D1634A06F000B252D /* SCLoadView.m */,
+				F554AF991634DF47000B252D /* SCMemoryView.h */,
+				F554AF9A1634DF47000B252D /* SCMemoryView.m */,
+				F5F089AD16360F0C0041712B /* SCDiskView.h */,
+				F5F089AE16360F0C0041712B /* SCDiskView.m */,
+				F5D23C9F163628480006CE4A /* SCNetView.h */,
+				F5D23CA0163628480006CE4A /* SCNetView.m */,
+				F554AF4316349886000B252D /* SCEndView.h */,
+				F554AF4416349886000B252D /* SCEndView.m */,
+			);
+			name = Widgets;
+			sourceTree = "<group>";
+		};
+		F5FE86D8162F85BB000D0738 = {
+			isa = PBXGroup;
+			children = (
+				F5FE86ED162F85BB000D0738 /* MiniDisplay */,
+				F5FE86E6162F85BB000D0738 /* Frameworks */,
+				F5FE86E4162F85BB000D0738 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5FE86E4162F85BB000D0738 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5FE86E3162F85BB000D0738 /* MiniDisplay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5FE86E6162F85BB000D0738 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5FE8704162F8C60000D0738 /* QuartzCore.framework */,
+				F5FE86E7162F85BB000D0738 /* Cocoa.framework */,
+				F5FE86E9162F85BB000D0738 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5FE86E9162F85BB000D0738 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5FE86EA162F85BB000D0738 /* AppKit.framework */,
+				F5FE86EB162F85BB000D0738 /* CoreData.framework */,
+				F5FE86EC162F85BB000D0738 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F5FE86ED162F85BB000D0738 /* MiniDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				F5FE86F9162F85BB000D0738 /* SCAppDelegate.h */,
+				F5FE86FA162F85BB000D0738 /* SCAppDelegate.m */,
+				F5FE86FC162F85BC000D0738 /* MainMenu.xib */,
+				F5395F291630C77B008E229C /* Views.xib */,
+				F5FE8706162F8E5C000D0738 /* SCWindow.h */,
+				F5FE8707162F8E5C000D0738 /* SCWindow.m */,
+				F5395F211630C468008E229C /* SCStatusView.h */,
+				F5395F221630C468008E229C /* SCStatusView.m */,
+				F5F27937163364A4005258BD /* NS(Attributed)String+Geometrics.h */,
+				F5F27938163364A4005258BD /* NS(Attributed)String+Geometrics.m */,
+				F5395F2E1630C812008E229C /* Widgets */,
+				F5FE86EE162F85BB000D0738 /* Supporting Files */,
+			);
+			path = MiniDisplay;
+			sourceTree = "<group>";
+		};
+		F5FE86EE162F85BB000D0738 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5FE872D162F9892000D0738 /* Images */,
+				F5FE86EF162F85BB000D0738 /* MiniDisplay-Info.plist */,
+				F5FE86F0162F85BB000D0738 /* InfoPlist.strings */,
+				F5FE86F3162F85BB000D0738 /* main.m */,
+				F5FE86F5162F85BB000D0738 /* MiniDisplay-Prefix.pch */,
+				F5FE86F6162F85BB000D0738 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5FE872D162F9892000D0738 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F5F2794516337617005258BD /* button.png */,
+				F5395F271630C758008E229C /* heart-white.png */,
+				F5F2794016336C78005258BD /* stats.png */,
+				F554AF5F1634A3FC000B252D /* fire.png */,
+				F5D23C9C163627A30006CE4A /* network-up-down.png */,
+				F5617D72164715BB00568916 /* home-disk.png */,
+				F5617D73164715BB00568916 /* system-disk.png */,
+				F5617D77164715EB00568916 /* end.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5FE86E2162F85BB000D0738 /* MiniDisplay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5FE8701162F85BC000D0738 /* Build configuration list for PBXNativeTarget "MiniDisplay" */;
+			buildPhases = (
+				F5FE86DF162F85BB000D0738 /* Sources */,
+				F5FE86E0162F85BB000D0738 /* Frameworks */,
+				F5FE86E1162F85BB000D0738 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniDisplay;
+			productName = MiniDisplay;
+			productReference = F5FE86E3162F85BB000D0738 /* MiniDisplay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5FE86DA162F85BB000D0738 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SC;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "The Hackerzz Group, Inc.";
+			};
+			buildConfigurationList = F5FE86DD162F85BB000D0738 /* Build configuration list for PBXProject "MiniDisplay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F5FE86D8162F85BB000D0738;
+			productRefGroup = F5FE86E4162F85BB000D0738 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5FE86E2162F85BB000D0738 /* MiniDisplay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5FE86E1162F85BB000D0738 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5FE86F2162F85BB000D0738 /* InfoPlist.strings in Resources */,
+				F5FE86F8162F85BB000D0738 /* Credits.rtf in Resources */,
+				F5FE86FE162F85BC000D0738 /* MainMenu.xib in Resources */,
+				F5395F281630C758008E229C /* heart-white.png in Resources */,
+				F5395F2A1630C77B008E229C /* Views.xib in Resources */,
+				F5F2794116336C78005258BD /* stats.png in Resources */,
+				F5F2794616337617005258BD /* button.png in Resources */,
+				F554AF601634A3FC000B252D /* fire.png in Resources */,
+				F5D23C9D163627A30006CE4A /* network-up-down.png in Resources */,
+				F5617D74164715BB00568916 /* home-disk.png in Resources */,
+				F5617D75164715BB00568916 /* system-disk.png in Resources */,
+				F5617D78164715EB00568916 /* end.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5FE86DF162F85BB000D0738 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5FE86F4162F85BB000D0738 /* main.m in Sources */,
+				F5FE86FB162F85BB000D0738 /* SCAppDelegate.m in Sources */,
+				F5FE8708162F8E5C000D0738 /* SCWindow.m in Sources */,
+				F5395F231630C468008E229C /* SCStatusView.m in Sources */,
+				F5395F2D1630C80B008E229C /* SCUserNameView.m in Sources */,
+				F5F27939163364A4005258BD /* NS(Attributed)String+Geometrics.m in Sources */,
+				F5F2794416337283005258BD /* SCHideControlView.m in Sources */,
+				F554AF4516349886000B252D /* SCEndView.m in Sources */,
+				F554AF5E1634A06F000B252D /* SCLoadView.m in Sources */,
+				F554AF9B1634DF47000B252D /* SCMemoryView.m in Sources */,
+				F5F089AF16360F0C0041712B /* SCDiskView.m in Sources */,
+				F5D23CA1163628480006CE4A /* SCNetView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5FE86F0162F85BB000D0738 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5FE86F1162F85BB000D0738 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F5FE86F6162F85BB000D0738 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5FE86F7162F85BB000D0738 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F5FE86FC162F85BC000D0738 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5FE86FD162F85BC000D0738 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5FE86FF162F85BC000D0738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F5FE8700162F85BC000D0738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F5FE8702162F85BC000D0738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiniDisplay/MiniDisplay-Prefix.pch";
+				INFOPLIST_FILE = "MiniDisplay/MiniDisplay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F5FE8703162F85BC000D0738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiniDisplay/MiniDisplay-Prefix.pch";
+				INFOPLIST_FILE = "MiniDisplay/MiniDisplay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5FE86DD162F85BB000D0738 /* Build configuration list for PBXProject "MiniDisplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5FE86FF162F85BC000D0738 /* Debug */,
+				F5FE8700162F85BC000D0738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5FE8701162F85BC000D0738 /* Build configuration list for PBXNativeTarget "MiniDisplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5FE8702162F85BC000D0738 /* Debug */,
+				F5FE8703162F85BC000D0738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5FE86DA162F85BB000D0738 /* Project object */;
+}
