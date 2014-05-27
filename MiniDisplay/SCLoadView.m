@@ -28,6 +28,12 @@
     return self;
 }
 
+- (void)mouseUp:(NSEvent *)theEvent {
+    if (theEvent.clickCount == 2){
+        [[NSWorkspace sharedWorkspace] launchApplication:@"Activity Monitor"];
+    }
+}
+
 - (void)prepareForService {
     int mib[2] = {CTL_HW, HW_NCPU};
     size_t sizeOfNumCPUs = sizeof(numCPUs);
@@ -45,7 +51,12 @@
     val = malloc(sizeof(double) * 3);
     getloadavg(val, 3);
     NSString *p = [self getCPUPercent];
-    NSSize rs = [p sizeForWidth:[p widthForHeight:22 font:self.percentLabel.font] height:22 font:self.percentLabel.font];
+    int temp_int = [p intValue];
+    if (temp_int < 10) {
+        p = [NSString stringWithFormat:@" %@",p];
+    }
+    NSString *temp_p = @"00%";
+    NSSize rs = [temp_p sizeForWidth:[temp_p widthForHeight:22 font:self.percentLabel.font] height:22 font:self.percentLabel.font];
     [self.percentLabel setFrameSize:(NSSize){floor(rs.width), self.percentLabel.frame.size.height}];
     self.percentLabel.stringValue = p;
     NSString *l = [NSString stringWithFormat:@"(load: %.2f, %.2f, %.2f)", val[0], val[1], val[2]];
@@ -76,7 +87,7 @@
                 inUse = cpuInfo[(CPU_STATE_MAX * i) + CPU_STATE_USER] + cpuInfo[(CPU_STATE_MAX * i) + CPU_STATE_SYSTEM] + cpuInfo[(CPU_STATE_MAX * i) + CPU_STATE_NICE];
                 total = inUse + cpuInfo[(CPU_STATE_MAX * i) + CPU_STATE_IDLE];
             }
-        usage += (inUse / total);
+            usage += (inUse / total);
         }
         if (prevCpuInfo) {
             size_t prevCpuInfoSize = sizeof(integer_t) * numPrevCpuInfo;

@@ -18,13 +18,13 @@ static NSArray *arr;
 
 + (void)initialize {
     /* configuration goes here
-     * 0: collapse button 
+     * 0: collapse button
      * 1: user name
      * 3: CPU
      * 4: Memory
      * 6: disk
      */
-    arr = @[@"0", @"3", @"4", @"6*sys", @"6*home"];
+    arr = @[@"0", @"3", @"4", @"6*sys"];
 }
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
